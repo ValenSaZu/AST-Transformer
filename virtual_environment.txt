@@ -1,0 +1,15 @@
+# 1) crear y activar
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+
+# 2) actualizar pip y wheel
+python -m pip install --upgrade pip wheel
+
+# 3) dependencias del loader + mels
+pip install numpy scipy soundfile
+
+# 4) PyTorch
+pip install torch torchaudio
