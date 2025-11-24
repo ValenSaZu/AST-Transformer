@@ -9,4 +9,3 @@ data/
 *.flac
 *.mp3
 *.npy
-*.npz*.pth
